@@ -6,3 +6,4 @@ if x in range(2,100,1):
     print("primo")
 if x in range(1,100,1):
     print("no primo")
+#Se crea un rango y dependiendo su valor se designa primo o no primo.

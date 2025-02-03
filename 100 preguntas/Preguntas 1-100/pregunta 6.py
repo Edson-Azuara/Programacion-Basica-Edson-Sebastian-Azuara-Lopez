@@ -8,3 +8,4 @@ tasa = (interés * días)
 preciofinal = (capital + tasa)
 
 print(preciofinal)
+#Se ingrsa un número y dependiedo el yiempo y los interéses se da el precio final

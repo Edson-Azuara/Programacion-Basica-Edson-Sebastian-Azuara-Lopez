@@ -15,4 +15,4 @@ f = (d + e)
 print(f)
 g = (e + f)
 print(g)
-
+#Se suma el número por el siguiente en la suma.

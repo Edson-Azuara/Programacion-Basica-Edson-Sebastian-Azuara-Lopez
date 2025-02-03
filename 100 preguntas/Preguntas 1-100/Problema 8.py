@@ -8,3 +8,4 @@ print("circuenferecnia:",circunferencia)
 
 área = (pi * (radio * radio))
 print("área de circunferencia:",área)
+# Se da el diámetro del circulo y se obtiene el área y la circunferencia.

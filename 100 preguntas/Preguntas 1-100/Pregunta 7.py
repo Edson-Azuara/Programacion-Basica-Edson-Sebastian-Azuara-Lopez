@@ -22,3 +22,4 @@ for j in range(9,100,9):
     print(j,"múltiplo de 9")
 for k in range(10,100,10):
     print(k,"múltiplo de 10")
+#Nuevamente se ingresa un rango y dependiendo sus múltiplos de acomodan en sus respectivas filas.
