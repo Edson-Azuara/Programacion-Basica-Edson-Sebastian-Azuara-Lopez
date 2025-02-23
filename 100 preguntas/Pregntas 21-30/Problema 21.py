@@ -1,29 +1,33 @@
-# Problema 21
+#Problema #21
 
-#lista aleatoria
+#Área Cuadrado
+a = 5
+b= a
+print("Área cuadrado")
+print(a * b)
 
-from random import randint 
-x = randint(1,100)
+#Area circulo
 
-print(x)
+r = 6
+print("Area circulo")
+circuo = (3.1416 * (r*r))
 
-listaP = list()
-ListaN = list()
+print(circuo)
 
-elementos = int(input("introduce cantidad elementos"))
+#Area triangulo
 
-for cont in range(0, elementos):
-    if cont<0:
-        ListaN.append(randint(1,100))
-    elif cont>0:
-        listaP.appennd(randint(1,100))
-    else:
-        listaP.append(randint(0,1))
+Alturatriangulo = 10
+Basetriangulo = 8
+print("Area Triangulo")
+Areatriangulo = ((Alturatriangulo * Basetriangulo)/2)
+print(Areatriangulo)
 
-Listacompleta = ListaN + listaP
+#Area pentagono
+apotema = 10
+Ladopentagono = 10
+ladospentagono = 5
+perimetro = (Ladopentagono * ladospentagono)
 
-print(Listacompleta)
-
-listaP.extend(ListaN)
-
-print(listaP)
+Areapentagono = ((perimetro * apotema)/2)
+print("Área Pentagono")
+print(Areapentagono)
